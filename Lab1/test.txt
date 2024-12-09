@@ -1,0 +1,47 @@
+/*这是一个测试文件*/
+void main()
+{
+    /*
+        在本文件中定义基本类型、各种程序结构以及自定义类型
+    */
+    double _a = -2.5;     // 整型
+    float b_123 = 3 - 2;
+    double c = 2;
+    const char _1 = 'd';
+    int arr[5] = {0, 1, 2, 3, 4};
+    int a = -1;
+    float b = 1;
+    // 单行注释测试
+    // 单行注释测试
+    typedef struct
+    {
+        long e;
+        short f;
+        static int g;
+    }
+    if(a == -1)
+    {
+        b = 1;
+    }
+    else
+    {
+        b = 2;
+    }
+    for(int i=0;i<5;i++)
+    {
+        if(i==0)
+            continue;
+        a++;
+    }
+    while(1)    a--;
+    switch(a)
+    {
+        case 0:
+            return sizeof(int);
+        case 1:
+            break;
+        default:
+            return 0;
+    }
+    return 0;
+}

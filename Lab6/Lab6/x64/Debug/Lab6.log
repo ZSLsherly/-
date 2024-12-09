@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\study\专业课\编译原理\Lab6\Lab6\main.cpp(122,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\study\专业课\编译原理\Lab6\Lab6\main.cpp(255,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\study\专业课\编译原理\Lab6\Lab6\main.cpp(284,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lab6.vcxproj -> D:\study\专业课\编译原理\Lab6\x64\Debug\Lab6.exe

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+int abcd=100;
+int efg=200;
+int gh123=300;
+abcd=abcd*efgh+gh123;
+}
+ 
+ 
