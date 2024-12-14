@@ -98,10 +98,10 @@ std::vector<Token> Lexer::lexerAnalyse(const std::string& src)
             {
                 syn = keywordTable[token];
             }
-            // 单词token，种别码为25
+            // 单词token，种别码为67
             else
             {
-                syn = 25;
+                syn = 67;
             }
             tokens.push_back({ syn, token, 0 });
         }
@@ -139,7 +139,7 @@ std::vector<Token> Lexer::lexerAnalyse(const std::string& src)
                 sum = -1 * sum;
                 result = -1 * result;
             }
-            tokens.push_back({ 26, "", result });
+            tokens.push_back({ 68, "", result });
         }
         // 处理符号
         else
